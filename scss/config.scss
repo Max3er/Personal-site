@@ -1,0 +1,23 @@
+// Main colors
+$dark: #25282B;
+$text-dark: #CFCFCF;
+$text-light: #EFEFEF;
+$main-blue: #468AC4;
+$dark-blue: #464D54;
+$red: #BB3434;
+$border-color: #444444;
+
+//Main fonts
+$header-font: Georgia, sans-serif;
+$main-font: Hind;
+
+//Text format
+h1, h2, h3, h4 {
+    font-family: $header-font;
+}
+
+p {
+    font-family: $main-font;
+    font-size: 1rem;
+    font-weight: lighter;
+}
