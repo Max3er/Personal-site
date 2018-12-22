@@ -17,8 +17,12 @@
 }
 
 .text-box {
-
     h3 {
         margin-bottom: 1rem;
     }
+}
+
+.left-box {
+    width: 250px;
+    border-right: 1px solid $border-color;
 }

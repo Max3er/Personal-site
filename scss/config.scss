@@ -5,6 +5,7 @@ $text-light: #EFEFEF;
 $main-blue: #468AC4;
 $dark-blue: #464D54;
 $red: #BB3434;
+$green: #34BB8D;
 $border-color: #444444;
 
 //Main fonts
@@ -50,4 +51,22 @@ p {
 
 strong {
     color: $text-dark;
+}
+
+//Background colors
+.bg-blue {
+    background-color: $main-blue;
+}
+
+.bg-red {
+    background-color: $red;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+//Components
+figure {
+    margin: 0px;
 }
