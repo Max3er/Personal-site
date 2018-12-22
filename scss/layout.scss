@@ -1,0 +1,28 @@
+//Main layout
+.container {
+    margin-left: 35%;
+    padding-left: 6rem;
+    width: 945px; //Full
+}
+
+.row {
+    display: flex;
+    width: inherit;
+}
+
+.col-12 {
+    flex-grow: 1;
+}
+
+.col-6 {
+    flex-grow: 1;
+    margin-right: 1.5rem;
+    &:last-child {
+        margin-right: 0px !important;
+        margin-left: 1.5rem;
+    }
+}
+
+.fluid {
+    flex-grow: 1;
+}

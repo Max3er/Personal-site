@@ -1,19 +1,12 @@
-//Text
-.kicker {
-    color: $text-dark;
-    font-size: 1.75rem;
-}
-
 //Content
-.container {
-    margin-left: 35%;
-    padding-left: 6rem;
-}
-
 .row-title {
     display: block;
     padding-bottom: 1rem;
     border-bottom: 1px solid $border-color;
+}
+
+.content-card {
+    display: flex;
 }
 
 .text-box {
@@ -25,4 +18,11 @@
 .left-box {
     width: 250px;
     border-right: 1px solid $border-color;
+    margin-right: 3rem;
+}
+
+//Text
+.kicker {
+    color: $text-dark;
+    font-size: 1.75rem;
 }

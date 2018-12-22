@@ -19,6 +19,7 @@ body {
 
 //Text format
 h1, h2, h3, h4 {
+    margin-top: 0px;
     font-family: $header-font;
     font-weight: 300;
     color: $text-dark;
@@ -40,7 +41,14 @@ span {
     font-family: $header-font;
     font-size: 1.37rem;
     color: $text-dark;
-} 
+}
+
+a {
+    color: $green;
+    &:hover {
+        color: $text-dark;
+    }
+}
 
 p {
     font-family: $main-font;
