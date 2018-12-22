@@ -8,16 +8,46 @@ $red: #BB3434;
 $border-color: #444444;
 
 //Main fonts
-$header-font: Georgia, sans-serif;
+$header-font: Neuton, serif;
 $main-font: Hind;
+
+//Main body
+body {
+    background-color: $dark;
+}
 
 //Text format
 h1, h2, h3, h4 {
     font-family: $header-font;
+    font-weight: 300;
+    color: $text-dark;
 }
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+span {
+    font-family: $header-font;
+    font-size: 1.37rem;
+    color: $text-dark;
+} 
 
 p {
     font-family: $main-font;
     font-size: 1rem;
     font-weight: lighter;
+    color: $text-light;
+}
+
+strong {
+    color: $text-dark;
 }
