@@ -116,8 +116,7 @@ sidenav {
   height: 12px;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 2rem; }
+  align-items: center; }
   .progress > .progress-bar {
     background-color: #468AC4;
     height: inherit; }
