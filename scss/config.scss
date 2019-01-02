@@ -45,8 +45,9 @@ span {
 
 a {
     color: $green;
+    text-decoration: none;
     &:hover {
-        color: $text-dark;
+        text-decoration: underline;
     }
 }
 
@@ -55,6 +56,9 @@ p {
     font-size: 1rem;
     font-weight: lighter;
     color: $text-light;
+    &:first-child {
+        margin-top: 0px;
+    }
 }
 
 strong {
