@@ -102,9 +102,17 @@ sidenav {
   margin-bottom: 1rem; }
 
 .left-box {
-  width: 250px;
   border-right: 1px solid #444444;
   margin-right: 3rem; }
+
+.bajs {
+  width: 25%; }
+
+.2-4 {
+  width: 50%; }
+
+.3-4 {
+  width: 75%; }
 
 .kicker {
   color: #CFCFCF;
