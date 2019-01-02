@@ -1,3 +1,9 @@
+.styleguide-headline {
+  font-family: Hind;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #464D54; }
+
 .styleguide-container {
   background-color: #121314;
   padding: 2.5rem;
