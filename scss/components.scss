@@ -21,6 +21,9 @@
 //Font awsome icons
 .fas {
     color: $main-blue;
+    &.disabled {
+        color: $dark-blue !important;
+    }
 }
 
 //Buttons
@@ -37,6 +40,43 @@
     }
 }
 
+//Input fields
+form {
+    font-family: $main-font;
+}
+
+input, select, textarea {
+    border: 1px solid $dark-blue;
+    background-color: $dark;
+    padding: 0.75rem;
+    color: $green;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    -webkit-appearance: none;
+    &:focus {
+        outline: 1px solid $green;
+    }
+}
+
+input[type=text] {
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+input[type=email] {
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+textarea {
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+//Tags
 .tag {
     border: 1px solid $green;
     border-radius: 25px;

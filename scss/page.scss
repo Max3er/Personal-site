@@ -17,20 +17,9 @@
 
 //Left box and sizes
 .left-box {
+    display: flex;
     border-right: 1px solid $border-color;
     margin-right: 3rem;
-}
-
-.bajs {
-    width: 25%;
-}
-
-.2-4 {
-    width: 50%;
-}
-
-.3-4 {
-    width: 75%;
 }
 
 //Text
