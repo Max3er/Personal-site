@@ -27,11 +27,14 @@
 }
 
 //Buttons
+button {
+    background-color: Transparent;
+}
+
 .main-button {
     cursor: pointer;
     border: 0px;
     padding: 20px;
-    color: $dark;
     font-weight: bold;
     &:hover {
         background-color: $dark-blue;

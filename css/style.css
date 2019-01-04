@@ -47,6 +47,15 @@ strong {
 .bg-green {
   background-color: #34BB8D; }
 
+.c-blue {
+  color: #468AC4; }
+
+.c-red {
+  color: #BB3434; }
+
+.c-green {
+  color: #34BB8D; }
+
 figure {
   margin: 0px; }
 
@@ -150,11 +159,13 @@ sidenav {
   .fas.disabled {
     color: #464D54 !important; }
 
+button {
+  background-color: Transparent; }
+
 .main-button {
   cursor: pointer;
   border: 0px;
   padding: 20px;
-  color: #25282B;
   font-weight: bold; }
   .main-button:hover {
     background-color: #464D54;
